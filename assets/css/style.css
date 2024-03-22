@@ -1,33 +1,24 @@
-/**
-* Template Name: Personal - v2.1.0
-* Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
   position: relative;
   background: url('caminho/para/sua/bg7.jpg');
-  background-repeat: repeat-y; /* Repetir verticalmente */
-  background-size: cover; /* Ajustar o tamanho da imagem de fundo */
+  background-repeat: repeat-y;
+  background-size: cover;
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
 body::before {
   content: "";
   position: fixed;
- 
+
   background-size: cover;
   left: 0;
   right: 0;
@@ -59,9 +50,7 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
-/*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
+
 #header {
   transition: ease-in-out 0s;
   position: relative;
@@ -153,10 +142,7 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Navigation Menu
---------------------------------------------------------------*/
-/* Desktop Navigation */
+
 .nav-menu {
   margin-top: 35px;
 }
@@ -208,7 +194,6 @@ h6 {
   text-decoration: none;
 }
 
-/* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
@@ -332,9 +317,7 @@ h6 {
   }
 }
 
-/*--------------------------------------------------------------
-# Sections General
---------------------------------------------------------------*/
+
 section {
   overflow: hidden;
   position: absolute;
@@ -398,9 +381,7 @@ section .container {
   color: #fff;
 }
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
+
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -426,9 +407,6 @@ section .container {
   margin-bottom: 0;
 }
 
-/*--------------------------------------------------------------
-# Counts
---------------------------------------------------------------*/
 .counts {
   padding: 70px 0 60px;
 }
@@ -467,9 +445,6 @@ section .container {
   font-size: 14px;
 }
 
-/*--------------------------------------------------------------
-# Skills
---------------------------------------------------------------*/
 .skills .progress {
   height: 50px;
   display: block;
@@ -502,9 +477,7 @@ section .container {
   background-color: #1c7d32;
 }
 
-/*--------------------------------------------------------------
-# Interests
---------------------------------------------------------------*/
+
 .interests .icon-box {
   display: flex;
   align-items: center;
@@ -533,9 +506,6 @@ section .container {
   background: #042b56eb;
 }
 
-/*--------------------------------------------------------------
-# Testimonials
---------------------------------------------------------------*/
 .testimonials .testimonial-item {
   box-sizing: content-box;
   min-height: 320px;
@@ -618,9 +588,7 @@ section .container {
   }
 }
 
-/*--------------------------------------------------------------
-# Resume
---------------------------------------------------------------*/
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -679,9 +647,6 @@ section .container {
   border: 2px solid #9e7f25;
 }
 
-/*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
   background: #09203a;
@@ -918,9 +883,6 @@ section .container {
   right: 15px;
 }
 
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
 .contact .info-box {
   color: #444444;
   padding: 20px;
@@ -1108,9 +1070,7 @@ section .container {
   }
 }
 
-/*--------------------------------------------------------------
-# Credits
---------------------------------------------------------------*/
+
 .credits {
   position: fixed;
   right: 15px;

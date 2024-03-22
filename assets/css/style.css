@@ -13,6 +13,15 @@ body {
   color: #fff;
   position: relative;
   background: url('caminho/para/sua/bg7.jpg');
+  background-repeat: repeat-y; /* Repetir verticalmente */
+  background-size: cover; /* Ajustar o tamanho da imagem de fundo */
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
 }
 
 body::before {
